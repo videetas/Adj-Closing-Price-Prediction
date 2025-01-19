@@ -18,9 +18,3 @@ Selected the values 3 and 5 for optimum results and checked the results on test 
 ## [MOVING AVERAGE](https://github.com/videetas/Adjusted-Closing-Price-Prediction/blob/main/Moving_Average.ipynb)
 
 Used dataframe.rolling function for performing rolling window calculations(Varied the size of rolling window from 1 to 25) and used the rolling mean function to predict values, used Root mean squared error values for selecting an optimum window size from 1-25 .The final size of rolling window is 2.
-
-
-## [XGB](https://github.com/videetas/Adjusted-Closing-Price-Prediction/blob/main/XGB.ipynb)
-
-xgbRegressor from xgboost is used for constructing the model which implements gradient boosting. 
-Values of the past 3 days are used to predict the value for the next day.
